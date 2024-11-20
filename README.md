@@ -75,12 +75,12 @@ A Bash script containing SQL queries for analyzing the database.
 - Basic knowledge of Bash scripting and SQL.
 
 ### Setup the Database
-Run the following command to create the database schema:
+1. Run the following command to create the database schema:
   ```bash
   psql --username=postgres --dbname=worldcup < worldcup.sql
 
 ### Insert Data
-Use the insert_data.sh script to populate the database:
+2. Use the insert_data.sh script to populate the database:
   ```bash
   ./insert_data.sh
 
@@ -89,7 +89,7 @@ For testing, you can use:
   ./insert_data.sh test
 
 ### Run Queries
-Execute queries.sh to retrieve insights from the database:
+3. Execute queries.sh to retrieve insights from the database:
   ```bash
   ./queries.sh
 
