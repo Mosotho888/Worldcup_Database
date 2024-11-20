@@ -74,6 +74,15 @@ A Bash script containing SQL queries for analyzing the database.
 - PostgreSQL installed on your system.
 - Basic knowledge of Bash scripting and SQL.
 
+**Clone the repository** and navigate to the script’s directory.
+
+### Permissions
+Ensure the `queries.sh` and `insert_data.sh` script has executable permissions:
+  ```bash
+  chmod +x queries.sh
+  chmod +x insert_data.sh
+  ```
+
 ### Setup the Database
 Run the following command to create the database schema:
   ```bash
@@ -92,7 +101,7 @@ For testing, you can use:
   ```
 
 ### Run Queries
-3. Execute queries.sh to retrieve insights from the database:
+Execute queries.sh to retrieve insights from the database:
   ```bash
   ./queries.sh
   ```
